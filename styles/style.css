@@ -1,3 +1,46 @@
+html,
+body {
+	font-family: "Open Sans", sans-serif !important;
+}
+
+.navbar-custom {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
 .logo-brand {
-	height: 3rem !important;
+	height: 2.5rem !important;
+}
+
+.nav-link-custom {
+	margin: 0 8px;
+	padding: 2.5rem 1rem !important;
+	font-size: 12px;
+	font-weight: 700;
+	border-top: 3.5px solid #fff;
+	color: #444444 !important;
+}
+
+.nav-link-custom:hover {
+	border-top: 3.5px solid #0088cc;
+	color: #0088cc !important;
+}
+
+.nav-social-icon {
+	width: 25px;
+	height: 25px;
+	color: #444444;
+	text-align: center;
+	border-radius: 100%;
+}
+
+.nav-social-icon:hover {
+	background: #4e6aa4;
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+}
+
+.nav-social-icon i {
+	font-weight: 500;
+	font-size: 13px;
 }
