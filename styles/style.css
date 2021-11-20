@@ -3,6 +3,12 @@ body {
 	font-family: "Open Sans", sans-serif !important;
 }
 
+.container {
+	max-width: 1140px !important;
+}
+
+/* top navigation bar */
+
 .navbar-custom {
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
@@ -35,12 +41,38 @@ body {
 }
 
 .nav-social-icon:hover {
-	background: #4e6aa4;
 	color: #fff;
+	background: #4e6aa4;
 	transition: all 0.2s ease-in-out;
 }
 
 .nav-social-icon i {
 	font-weight: 500;
 	font-size: 13px;
+}
+
+/* paginate */
+.paginate {
+	padding: 13px 0;
+	background: #212529;
+	border-bottom: 4px solid #cccccc;
+}
+
+.breadcrumb-item-custom {
+	font-size: 12px;
+}
+
+.paginate-active-title {
+	position: relative;
+	display: inline-block;
+	color: #fff;
+}
+
+.paginate-active-title::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	left: 0;
+	border-bottom: 5px solid #08c;
+	bottom: -26px;
 }
